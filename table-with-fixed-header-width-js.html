@@ -1,0 +1,27 @@
+<table class="tableStyle">
+	<thead>
+    <tr>
+		<th>Rec.No.</th>
+		<th>Adm No.</th>
+		<th>Student/Staff Name</th>
+		<th>Father Name</th>
+		<th>Class</th>
+		<th>Month</th>
+    </tr>
+	</thead>
+	<tbody> 
+	    <tr>
+		<td>Rec.No.</th>
+		<td>Adm No.</th>
+		<td>Student/Staff Name</td>
+		<td>Father Name</td>
+		<td>Class</td>
+		<td>Month</td>
+    </tr>
+	</tbody>
+    </table>
+<script type="text/javascript" src="js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript"> 
+  $('table').stickyTableHeaders();
+$("table").stickyTableHeaders({ scrollableArea: $(".scrollable-area")[0], "fixedOffset": 50 });
+</script>
